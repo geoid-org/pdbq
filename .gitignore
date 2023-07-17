@@ -1,0 +1,8 @@
+# Geoid .gitignore
+# v0.0.1
+
+# General
+.DS_Store
+
+# Node
+node_modules/
