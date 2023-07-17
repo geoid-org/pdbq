@@ -10,15 +10,23 @@
         "database",
         "json"
     ],
+    "homepage": "https://pdbq.io",
     "repository": {
         "type": "git",
         "url": "https://github.com/geoid-org/pdbq.git"
     },
+    "bugs": {
+        "url": "https://github.com/geoid-org/pdbq/issues"
+    },
+    "main": "index.js",
     "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "dependencies": {},
     "devDependencies": {
         "typescript": "^5.1.6"
+    },
+    "publishConfig": {
+        "access": "public"
     }
 }
-  
