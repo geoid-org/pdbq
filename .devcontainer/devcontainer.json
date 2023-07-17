@@ -1,4 +1,4 @@
 {
     "name": "devenv",
-    "dockerFile": "Dockerfile",
+    "dockerFile": "Dockerfile"
 } 
