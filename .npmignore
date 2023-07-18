@@ -1,0 +1,12 @@
+src
+docs
+test
+node_modules/
+tsconfig.json
+tslint.json
+.github
+.prettierignore
+**/*.spec.*
+coverage
+*.log
+*.html
