@@ -3,7 +3,7 @@
     "description": "Portable Database Queries",
     "author": "Geoid",
     "license": "MIT",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "keywords": [
         "geoid",
         "pdbq",
@@ -19,12 +19,20 @@
         "url": "https://github.com/geoid-org/pdbq/issues"
     },
     "main": "index.js",
+    "type": "module",
     "scripts": {
+        "build": "node --loader ts-node/esm node_modules/.bin/webpack --mode production --config webpack.config.ts",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "dependencies": {},
     "devDependencies": {
-        "typescript": "^5.1.6"
+        "@types/node": "^20.2.3",
+        "eslint": "^8.41.0",
+        "prettier": "^2.8.8",
+        "ts-loader": "^9.4.3",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.1.6",
+        "webpack": "^5.88.2",
+        "webpack-cli": "^5.1.4"
     },
     "publishConfig": {
         "access": "public"
