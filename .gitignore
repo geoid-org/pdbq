@@ -1,8 +1,9 @@
-# Block Foundation .gitignore
+# Kockums .gitignore
 # v0.0.1
 
 # General
 .DS_Store
+tmp/*
 
 # Node
 node_modules/
