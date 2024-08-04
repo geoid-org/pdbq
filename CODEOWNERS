@@ -1,1 +1,10 @@
-* @vianen
+# Code Owners
+
+## Global
+
+* @vanvianen
+
+## Documentation
+
+README.md   @vanvianen
+/docs/      @vanvianen
